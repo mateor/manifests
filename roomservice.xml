@@ -31,6 +31,8 @@
   <project name="cristianomatos/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cr-main-10.2" />
   <remove-project name="CyanogenMod/android_packages_apps_Phone" />
   <project name="cristianomatos/android_packages_apps_Phone" path="packages/apps/Phone" remote="github" revision="cr-main-10.2" />
+  <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <project name="cristianomatos/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="cr-main-10.2" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="cristianomatos/android_frameworks_native" path="frameworks/native" remote="github" revision="cr-main-10.2" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
