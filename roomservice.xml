@@ -1,53 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="TheMuppets/proprietary_vendor_samsung.git" path="vendor/samsung" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="cm" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_qcom_power" path="hardware/qcom/power" remote="cm" revision="cm-10.2" />
+  <project name="ParanoidAndroid/android_device_lge_mako" path="device/lge/mako" remote="github" revision="jb43" />
+  <project name="ParanoidAndroid/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="jb43" />
+  <project name="ParanoidAndroid/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="jb43" />
+  <project name="ParanoidAndroid/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="jb43" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
 
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project name="cristianomatos/android_vendor_cm" path="vendor/cm" remote="github" revision="cr-main-10.2"/>
-
-	<remove-project name="CyanogenMod/android_packages_apps_Calculator" />
-	<project name="cristianomatos/android_packages_apps_Calculator" path="packages/apps/Calculator" remote="github" revision="cr-main-10.2" />
-
-	<project name="CyanogenMod/android_packages_apps_CMAccount" path="packages/apps/CMAccount" remote="github" revision="cm-10.2" />
-	
-	<remove-project name="CyanogenMod/android_packages_apps_Contacts" />
-	<project name="cristianomatos/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="cr-main-10.2" />
-
-	<remove-project name="CyanogenMod/android_packages_apps_ContactsCommon" />
-	<project name="cristianomatos/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cr-main-10.2" />
-
-        <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
-	<project name="cristianomatos/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="cr-main-10.2" />
-
-	<remove-project name="CyanogenMod/android_packages_apps_Email" />
-	<project name="cristianomatos/android_packages_apps_Email" path="packages/apps/Email" remote="github" revision="cr-main-10.2" />
-	  
-	<remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
-	<project name="cristianomatos/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="cr-main-10.2" />
-
-	<remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
-	<project name="cristianomatos/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="cr-main-10.2" />
-
-	<remove-project name="CyanogenMod/android_packages_apps_Mms" />
- 	<project name="cristianomatos/android_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="cr-main-10.2" />
-
-        <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
- 	<project name="cristianomatos/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cr-main-10.2" />
-  
-  	<remove-project name="CyanogenMod/android_packages_apps_Phone" />
-  	<project name="cristianomatos/android_packages_apps_Phone" path="packages/apps/Phone" remote="github" revision="cr-main-10.2" />
-  
-  	<remove-project name="CyanogenMod/android_frameworks_native" />
-  	<project name="cristianomatos/android_frameworks_native" path="frameworks/native" remote="github" revision="cr-main-10.2" />
-
-        <remove-project name="CyanogenMod/android_frameworks_base" />
-  	<project name="cristianomatos/android_frameworks_base" path="frameworks/base" remote="github" revision="cr-main-10.2" />
-
-	<remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  	<project name="cristianomatos/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cr-main-10.2" />
-
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project name="cristianomatos/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="cr-main-10.2-pa" />
+  <remove-project name="ParanoidAndroid/android_frameworks_base" />
+  <project name="cristianomatos/android_frameworks_base" path="frameworks/base" remote="github" revision="cr-main-10.2-pa" />
+  <remove-project name="ParanoidAndroid/android_packages_apps_Settings" />
+  <project name="cristianomatos/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cr-main-10.2-pa" />
 </manifest>
