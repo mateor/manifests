@@ -7,8 +7,8 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
-
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-10.2" />
+  
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="cristianomatos/android_vendor_cm" path="vendor/cm" remote="github" revision="cr-main-10.2" />
   <remove-project name="CyanogenMod/android_packages_apps_Calculator" />
